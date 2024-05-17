@@ -1,0 +1,72 @@
+ body {
+    margin: 0%;
+    background-image: url('./Img/GIXXER\ \ 250\ Y\ SF\ fondo.jpg');
+    font-size: 16px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    line-height: 22.8571px;
+    margin: 0px;
+    height: 55px;
+}
+
+.Logo_Suzukip {
+    display: flex;
+    height: 39px;
+    width: 46px;
+    background-color: white;
+    padding: 12px;
+    line-height: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0%;
+}
+
+/*Linea debajo del input no la e colocado*/
+.Buscar_inicio {
+    border: 1px solid;
+    height: 60px;
+}
+
+input {
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    height: 28px;
+    margin: 23px 60px;
+    line-height: 20px;
+    border: none;    
+}
+
+.img_redes {
+    position: absolute;    
+    left: 95%;
+    margin: 30px 5px;
+}
+
+.logo_face, .logo_insta, .logo_tiktok, .logo_x, .logo_what, .logo_yt {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
