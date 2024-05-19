@@ -1,14 +1,44 @@
 * {
     margin: 0;
-    text-decoration: none;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .Caja1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 50px 100px;
-    background-color: #e4e6e6;
+    background-color: rgb(228,230,230);
     color: #333;
+    padding: 50px 100px;
+    line-height: 22.8571px;
+}
+
+.caja1-1 {
+    padding: 50px;
+    gap: 40px;
+}
+
+
+.article_1 {
+justify-content: center;
+width: 100%;
+height: 100%;
+display: flex;
+}
+
+.img {
+    display: flex;
+}
+
+.img_inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.img_content {
+    width: 100%;
+    height: 100%;
 }
